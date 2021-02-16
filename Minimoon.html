@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Minimoon</title>
+    <meta charset="UTF-8">
+    <audio loop src="music/Alert!! (LOOP).wav" id="bgm"></audio>
+    <audio loop src="music/Kick_Into_Warpdrive.wav" id="winMusic"></audio>
+    <audio loop src="music/Trouble Afoot (LOOP).wav" id="lostMusic"></audio>
+
+    <!-- <audio loop>
+        <source src="music/Alert!! (LOOP).wav" id="bgm"/>
+        <source src="music/Kick_Into_Warpdrive.wav" id="winMusic"/>
+        Your browser does not support the audio element.
+     </audio> -->
+
+    <script src="Minimoon.js"></script>
+</head>
+
+<style>
+    html {
+        font-family: 'Courier New', Courier, monospace;
+    }
+    
+    body {
+        padding-left: 0;
+        padding-right: 0;
+        padding-top: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 800px;
+    }
+</style>
+
+<body onload="setup()">
+    <canvas id="surface" width="600" height="600" style="border:solid"></canvas>
+    <p>Welcome to <b>Minimoon!</b></p>
+    <p><b>Click the canvas</b> to start the game</p>
+    <p>Use <b>WASD</b> to move through the menu options and press <b>ENTER</b> to choose an option</p>
+
+</body>
+
+</html>
